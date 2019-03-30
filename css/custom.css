@@ -1,3 +1,30 @@
-a#logo {
-    padding: 0%;
+
+.myButton {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: transparent;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#contents {
+    padding-top: 80px;
+}
+
+#progress {
+    float: right;
+    padding: 5%;
 }
