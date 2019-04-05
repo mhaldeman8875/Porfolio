@@ -1,7 +1,7 @@
 /********************** Backgrounds **********************/
 
 #Header_wrapper {
-	background-color: #ac9e91;
+	background-color: #e;
 }
 #Subheader {
 	background-color: #F7F7F7;
@@ -454,10 +454,10 @@ table tr:hover td {
 /******************* Background ********************/
 
 html {
-	background-color: #FCFCFC;
+	background-color:#312d38;
 }
 #Wrapper, #Content {
-	background-color: #212529bf;
+	background-color: #312d38;
 }
 
 /********************** Fonts **********************/

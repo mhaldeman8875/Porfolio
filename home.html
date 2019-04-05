@@ -17,15 +17,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- FONTS -->
-  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
-  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
-  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400,400italic,700'>
+  <link rel="stylesheet" href="https://use.typekit.net/fky6adt.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
   <!-- CSS -->
+  
   <link rel='stylesheet' href='css/global.css'>
   <link rel='stylesheet' href='css/structure.css'>
   <link rel='stylesheet' href='css/art.css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">  
 
   <link rel='stylesheet' href='css/custom.css'>
   <title>Madd Media</title>
@@ -52,13 +53,11 @@
                 <div class="menu_wrapper">
                   <nav id="menu">
                     <ul id="menu-main-menu" class="menu">
-                      <li class="current_page_item"><a href="home.html"><span>home</span></a></li>
-                      <li><a href="#description"><span>about</span></a></li>
+                      <li><a href="#intro"><span>about</span></a></li>
                       <li><a href="#portfolio"><span>portfolio</span></a></li>
                       <li><a href="#ongoing"><span>works in progress</span></a></li>
                       <li><a href="#contact"><span>contact</span></a></li>
-                      <li><a href="https://github.com/mhaldeman8875"><span>github</span></a></li>
-                      <li><a href="https://www.linkedin.com/in/madelyn-haldeman-ab4282a5"><span>linkedin</span></a></li>
+                      
                     </ul>
                   </nav>
                   <a class="responsive-menu-toggle" href="#menu"> <i class="icon-menu"></i> </a>
@@ -72,7 +71,7 @@
     </div>
       
 <!-- Main Content -->
-    <div id="Content">
+    <div id="background">
       <div class="content_wrapper clearfix">
         <div class="sections_group">
           <div class="entry-content">
@@ -80,7 +79,7 @@
               <div class="section_wrapper clearfix">
                 <div class="items_group clearfix">
 
-                  <div class="tagline"><img class="scale-with-grid" src="my_imgs/tagline.png"></div>
+                  <div class="tagline"><img class="scale-with-grid" src="my_imgs/LOGO_2.png"></div>
                   <div class="stackedtagline"><img class="scale-with-grid" src="my_imgs/LOGO_2.png"></div>
                   
                   
@@ -90,147 +89,155 @@
 
 
 <!-- #description -->
-            <div class="section full-screen" id="description" style="padding-top:80px; padding-bottom:80px; background-color:#ffffff; background-image:url(images/home-parallax-lives.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-stellar-background-ratio="0.5">
-              <div class="container" id="contents">
-
-                <p id="section">Who Am I?</p><span id="cont">(get eryn to help with info population)I am a Bellevue based developer currently studying the 6 month Software Development Bootcamp at The Tech Academy. </span>
-                <br />
+            <div class="section full-screen" id="background" data-stellar-background-ratio=".5">
+              <div class="container-fluid center" id="intro">
+                <!-- <h2 id="section">ABOUT ME</h2> -->
                 <div class="row">
-                  <div class="col-md-8">
+                    <span id="maddy">Hello, I'm <strong>Maddy Haldeman</strong></span>
+                  <div class="col-md-7" id="meright">
+                      <p>
+                        <span id="bellevue">I'm a full-stack developer in Bellevue</span>
+                        <br>
+                        I enjoy solving complex problems and making intuitive programs. <br> When I'm not coding you can find me in the middle of nowhere,<br>taking pictures of the milky way,<br>or at home - enjoying a good sci-fi movie.
+                        <br>
+                      </p>
+                      <div class="col-md-6" style="padding: 0%; padding-top: 6%; font-size: 20px;">
+                          <div id="skills">
+                            <ul class="myClass">
+                              <li>Pair-programming</li>
+                              <li>Database Management</li>
+                              <li>Agile and scrum methodology</li>
+                              <li>Git Version Control</li>
+                              <li>Visual Studio & VS Code</li>
+                            </ul>
+                          </div>
+                      </div>
+                      
+                  </div>
 
-                  </div>
-                  <div class="col-md-4" id="progress">
-                      <div class="progress_bars" id="progress">
-                          <ul class="bars_list hover">
-                            <li>
-                              <p id="pro">HTML <span class="label">40%</span></p id="pro">
-                              <div class="bar">
-                                <span class="progress" style="width:40%"></span>
-                              </div>
-                            </li>
-        
-                            <li>
-                              <p id="pro">JavaScript <span class="label">30%</span></p id="pro">
-                              <div class="bar">
-                                <span class="progress" style="width:30%"></span>
-                              </div>
-                            </li>
-        
-                            <li>
-                              <p id="pro">SQL <span class="label">58%</span></p id="pro">
-                              <div class="bar">
-                                <span class="progress" style="width:58%"></span>
-                              </div>
-                              <li>
-                                <p id="pro">Python <span class="label">48%</span></p id="pro">
-                                <div class="bar">
-                                  <span class="progress" style="width:48%"></span>
-                                </div>
-                              </li>
-                              <li>
-                                <p id="pro">C# <span class="label">42%</span></p id="pro">
-                                <div class="bar">
-                                  <span class="progress" style="width:42%"></span>
-                                </div>
-                              </li>               
-                          </ul>
-                        </div>
-                  </div>
+                  <div class="col-md-5">
+                    <div class="animate" id="meleft" data-anim-type="zoomIn">
+                      <i class="devicon-html5-plain-wordmark"></i>
+                      <i class="devicon-css3-plain-wordmark"></i>
+                      <i class="devicon-javascript-plain"></i> <span id="icons">SQL</span>
+                      <i class="devicon-python-plain-wordmark"></i>
+                      <i class="devicon-django-plain-wordmark"></i>
+                      <i class="devicon-csharp-plain-wordmark"></i>
+                      <i class="devicon-dot-net-plain-wordmark"></i>
+                    </div>
                 </div>
-                
+                  
+               
               </div>
             </div>
 
 
 <!-- #portfolio -->
-            <div class="section full-screen center" id="portfolio" style="padding-top:80px; padding-bottom:80px; background-color:#ffffff; background-image:url(images/home-parallax-lives.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-stellar-background-ratio="0.5">
-              <div class="column one column_column" id="contents">
+            <div class="section dark center" id="portfolio" data-stellar-background-ratio="0.5">
+                <div class="column_attr animate" data-anim-type="zoomIn">
+                    <p id="hd">PORTFOLIO</p>
+                </div>  
+            </div>
+              
+            <div class="section full-screen" id="background" data-stellar-background-ratio="0.5">
+                <div class="container-fluid center" id="contents">
                 <div class="column_attr animate" data-anim-type="zoomIn">
                   <p id="section">See some projects from my GitHub</p>
                 </div>
-
-                <div class="column one column_portfolio_grid" id="tiles">
-                    <ul class="portfolio_grid ">
-                      <li>
-                        <div class="image_frame scale-with-grid">
-                          <div class="image_wrapper">
-                            <a href="images/portfolio_1-1200x800.jpg" rel="prettyphoto">
-                              <div class="mask"></div><img width="640" height="500" src="images/portfolio_1-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_1" />
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="image_frame scale-with-grid">
-                          <div class="image_wrapper">
-                            <a href="images/portfolio_2-1200x800.jpg" rel="prettyphoto">
-                              <div class="mask"></div><img width="640" height="500" src="images/portfolio_2-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_2" />
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="image_frame scale-with-grid">
-                          <div class="image_wrapper">
-                            <a href="images/portfolio_3-1200x800.jpg" rel="prettyphoto">
-                              <div class="mask"></div><img width="640" height="500" src="images/portfolio_3-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_3" />
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="image_frame scale-with-grid">
-                          <div class="image_wrapper">
-                            <a href="images/portfolio_1-1200x800.jpg" rel="prettyphoto">
-                              <div class="mask"></div><img width="640" height="500" src="images/portfolio_1-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_1" />
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="image_frame scale-with-grid">
-                          <div class="image_wrapper">
-                            <a href="images/portfolio_2-1200x800.jpg" rel="prettyphoto">
-                              <div class="mask"></div><img width="640" height="500" src="images/portfolio_2-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_2" />
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="image_frame scale-with-grid">
-                          <div class="image_wrapper">
-                            <a href="images/portfolio_3-1200x800.jpg" rel="prettyphoto">
-                              <div class="mask"></div><img width="640" height="500" src="images/portfolio_3-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_3" />
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                          <div class="image_frame scale-with-grid">
-                            <div class="image_wrapper">
-                              <a href="images/portfolio_2-1200x800.jpg" rel="prettyphoto">
-                                <div class="mask"></div><img width="640" height="500" src="images/portfolio_2-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_2" />
-                              </a>
+                    <div class="column one column_portfolio_grid" id="tiles">
+                        <ul class="portfolio_grid ">
+                          <li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="image_frame scale-with-grid">
-                            <div class="image_wrapper">
-                              <a href="images/portfolio_3-1200x800.jpg" rel="prettyphoto">
-                                <div class="mask"></div><img width="640" height="500" src="images/portfolio_3-640x500.jpg" class="scale-with-grid wp-post-image" alt="portfolio_3" />
-                              </a>
+                          </li>
+                          <li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                        </li>
-                    </ul>
-                </div>
+                          </li>
+                          <li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </li><li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </li><li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="image_frame scale-with-grid">
+                              <div class="image_wrapper">
+                                <a href="#"><div class="mask"></div><img width="576" height="450" src="images/pic.jpg" class="scale-with-grid wp-post-image" alt="portfolio_6" itemprop="image"></a>
+                                <div class="image_links double">
+                                  <a href="images/portfolio_1-1200x800.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="#" class="link"><i class="icon-link"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                    </div>
+                
               </div>
             </div>
 
 
 <!-- #ongoing -->
-            <div class="section dark " id="liveo" style="padding-top:250px; padding-bottom:210px; background-color:#2d4e14; background-image:url(images/home-parallax-lives.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-stellar-background-ratio="0.5">
+            <div class="section dark center" id="ongoing" data-stellar-background-ratio="0.5">
+              <div class="column_attr animate" data-anim-type="zoomIn">
+                  <p id="hd">ONGOING</p>
+              </div>  
+            </div>
+            <div class="section" id="background" data-stellar-background-ratio="0.5">
                 <div class="section_wrapper clearfix">
                     <div class="items_group clearfix">
                         <!-- One Second (1/2) Column -->
@@ -261,7 +268,12 @@
             </div>
 
 <!-- contact -->
-            <div class="section" id="centerkom" style="padding-top:250px; padding-bottom:210px; background-color:#fdfdfd; background-image:url(images/home-parallax-centerkom.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-stellar-background-ratio="0.5">
+            <div class="section dark center" id="contact" data-stellar-background-ratio="0.5">
+              <div class="column_attr animate" data-anim-type="zoomIn">
+                  <p id="hd">CONTACT</p>
+              </div>  
+            </div>
+            <div class="section" id="background" data-stellar-background-ratio="0.5">
                 <div class="section_wrapper clearfix">
                     <div class="items_group clearfix">
                         <!-- One Second (1/2) Column -->
@@ -290,8 +302,10 @@
             <div class="copyright">
                 &copy; 2019 MaddMedia - HTML by <a target="_blank" rel="nofollow" href="">Madelyn Haldeman</a>
             </div>
-            <!--Social info area-->
-            <ul class="social"></ul>
+            <li><a href="https://github.com/mhaldeman8875"><span>github</span></a></li>
+            <li><a href="https://www.linkedin.com/in/madelyn-haldeman-ab4282a5"><span>linkedin</span></a></li>            <ul class="social">
+              <i class="devicon-github-plain"></i>
+            </ul>
           </div>
         </div>
       </div>
