@@ -135,7 +135,6 @@ body {
 } 
 
 
-
 @media only screen and (max-width: 936px) { 
   .tagline { 
     display: none;
@@ -203,11 +202,14 @@ body {
     border: 0;
     vertical-align: baseline;
     top: 0px;
-    background-color: black;
   }
 
   #Top_bar .logo {
     padding-top: 5px;
+  }
+
+  #mmenu {
+    color: #6a667c;
   }
 
   .menu {
