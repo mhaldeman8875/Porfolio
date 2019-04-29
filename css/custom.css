@@ -1,0 +1,222 @@
+body {
+  font-family: 'interstate', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#me {
+  width: 80%;
+  padding: 6%;
+}
+.intro {
+  max-height: 100em;
+}
+
+#intro {
+  padding-top: 2%;
+  padding-bottom: 6%;
+  padding-right: 5%;
+  padding-left: 5%;
+
+  background-image: url("../my_imgs/profile.png");
+  background-repeat:no-repeat; 
+  background-position:center bottom;
+  background-size: 100%;
+}
+
+
+.pros {
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 10%;
+  font-size: 50px;
+  color: #62a4b5;
+}
+
+.skills {
+  text-align: left;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 50px;
+  color: #6a667c;
+}
+
+#skills {
+  font-size: 120%;
+  border-radius:50px;
+  color: #6a667c;
+  border:5px solid #6a667c;
+  -moz-border-radius:50px;
+  -webkit-border-radius:50px;
+  text-align: center;
+  padding: 3%;
+}
+.myClass {
+  padding: 10px;
+  font-weight: 400;
+}
+
+#meleft {
+  font-size: 550%;  
+  text-align: center;
+  padding: 3%;
+  padding-top: 8%;
+  color: #6a667c
+}
+
+#meright {
+  font-size: 22px;
+  font-weight: 300;
+  padding-top: 2%;
+}
+
+#maddy {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+#bellevue {
+  font-size: 27px;
+  font-weight: 400;
+  padding-top: 1%;
+}
+
+#icons {
+  font-size: 40%;
+}
+
+#contents {
+  padding-top: 3%;
+}
+
+#tiles {
+  padding-top: 3%;
+  paddiing-bottom: 3%;
+}
+
+#section {
+  font-weight: 300;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#content {
+  text-align: center;
+  text-justify: auto;
+}
+
+#progress {
+  text-align: left;
+  padding-top: 5%;
+}
+
+#inner {
+  padding-bottom: 30% !important;
+}
+
+#ghlinks {
+
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.stackedtagline { 
+  display: none;
+} 
+
+
+@media only screen and (max-width: 936px) { 
+  .tagline { 
+    display: none;
+  } 
+
+   .stackedtagline { 
+    display: block;
+  }
+}
+
+
+/* subheaders  -------------------------------------------------------------------------------------------*/
+
+#portfolio {
+  padding-top:150px; 
+  padding-bottom:120px; 
+  background-color:#ffffff; 
+  background-image:url('../my_imgs/background2.jpg'); 
+  background-repeat:no-repeat; 
+  background-position:center top; 
+  background-attachment:fixed; 
+  background-size:cover; 
+  -webkit-background-size:cover;
+}
+
+#ongoing {
+  padding-top:150px; 
+  padding-bottom:120px; 
+  background-color:#ffffff; 
+  background-image:url('../my_imgs/background3.jpeg'); 
+  background-repeat:no-repeat; 
+  background-position:center top; 
+  background-attachment:fixed; 
+  background-size:cover; 
+  -webkit-background-size:cover;
+}
+
+#contact {
+  padding-top:150px; 
+  padding-bottom:120px; 
+  background-color:#ffffff; 
+  background-image:url('../my_imgs/background4.jpg'); 
+  background-repeat:no-repeat; 
+  background-position:center top; 
+  background-attachment:fixed; 
+  background-size:cover; 
+  -webkit-background-size:cover;
+}
+
+
+#hd {
+  font-size: 100px;
+}
+
+#background {
+  background-color: #FCFCFC;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+@media only screen and (max-width: 768px) {
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    top: 0px;
+  }
+
+  #Top_bar .logo {
+    padding-top: 5px;
+  }
+
+  #mmenu {
+    color: #6a667c;
+  }
+
+  .menu {
+    padding-top: 10px;
+  }
+
+  #mediano {
+    display: none;
+  }
+}

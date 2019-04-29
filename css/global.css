@@ -40,6 +40,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	top: -6px;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -763,8 +764,9 @@ a:hover.tp-button.lightgrey {
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
 	font-family: "mfn-icons";
+	color: #ffffffcf;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 200;
 	speak: none;
 	display: inline-block;
 	text-decoration: none !important;
@@ -1428,7 +1430,7 @@ a:hover.tp-button.lightgrey {
 	content: '\e8d5'
 }
 .icon-menu:before {
-	content: '\e8d6'
+	content: '\e813'
 }
 .icon-mic:before {
 	content: '\e8d7'
@@ -5313,22 +5315,21 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 	margin-bottom: 0
 }
 .progress_bars .bars_list li h6 {
-	margin-bottom: 7px;
+	margin-bottom: 4px;
 	position: relative;
 	padding-right: 40px
 }
 .progress_bars .bars_list li h6 .label {
 	display: block;
-	font-size: 11px;
-	line-height: 17px;
+	font-size: 10px;
+	line-height: 10px;
 	padding: 0 5px;
-	font-weight: 400;
+	font-weight: 200;
 	position: absolute;
 	right: 0;
 	top: 1px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	background: rgba(0, 0, 0, .05);
 	color: rgba(0, 0, 0, .35)
 }
 .progress_bars .bars_list li h6 .label em {
