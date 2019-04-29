@@ -148,6 +148,18 @@ body {
 
 /* subheaders  -------------------------------------------------------------------------------------------*/
 
+#galaxy {
+    padding-top:350px; 
+    padding-bottom:350px; 
+    background-color:black; 
+    background-image:url('../my_imgs/Background1.png'); 
+    background-repeat:no-repeat;
+    background-position:center top; 
+    background-attachment:fixed; 
+    background-size:cover; 
+    -webkit-background-size:cover
+} 
+
 #portfolio {
   padding-top:150px; 
   padding-bottom:120px; 
