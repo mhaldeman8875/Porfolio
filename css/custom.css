@@ -149,15 +149,15 @@ body {
 /* subheaders  -------------------------------------------------------------------------------------------*/
 
 #galaxy {
-    padding-top:350px; 
-    padding-bottom:350px; 
-    background-color:black; 
-    background-image:url('../my_imgs/background1.png'); 
-    background-repeat: no-repeat;
-    background-position: center top; 
-    background-attachment: fixed; 
-    background-size: cover; 
-    -webkit-background-size:cover;
+  padding-top:350px; 
+  padding-bottom:350px; 
+  background-color:#ffffff; 
+  background-image:url('../my_imgs/background1.png'); 
+  background-repeat: no-repeat;
+  background-position: center top; 
+  background-attachment: fixed; 
+  background-size: cover; 
+  -webkit-background-size:cover;
 } 
 
 #portfolio {
